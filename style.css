@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+   
+}
+
+header{
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 180px;
+    position: fixed;
+  
+}
+
+header p{
+    font-size: 24px;
+    line-height: 80px;
+    font-weight: bold;
+    font-family: 'Satisfy', cursive;
+    padding-left: 30px;
+
+}
+
+header ul{
+
+    display: flex;
+    width: 600px;
+    justify-content:space-around;
+    padding: 30px;
+    
+    
+    
+}
+
+header a{
+    font-family: 'Satisfy', cursive;
+    font-size: 16px;
+    text-decoration: none;
+    color: black;
+    
+}
+
+
+h1{
+    font-size: 14ex;
+    font-weight: bold;
+    text-align: center;
+    padding: 320px;
+    font-family: 'Satisfy', cursive;
+    background-image: url(background1.jpg);
+    background-size:cover;
+    
+}
+
+.basicinformation{
+    padding: 180px;
+    background-color:#ffffff;
+    background-image: url(background2.jpg);
+    background-size:cover;
+  
+
+}
+
+.profile .profile-text{
+    width: 500px;
+    float: left;
+}
+
+.profile h2{
+    font-size: 50px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    font-family: 'Satisfy', cursive;
+    
+
+}
+
+.profile p{
+    font-size: 24px;
+    margin-top: 60px;
+    font-family: 'Zen Kurenaido', sans-serif;
+    line-height: 50px;
+  
+}
+
+.profile img{
+    width: 480px;
+    height: 360px;
+    margin-left: 100px;
+}
+
+.clearfix{
+    clear:both;
+}
+
+.favorite{
+text-align: center;
+
+
+}
+
+.favorite h2{
+    font-size: 50px;
+    letter-spacing: 0.1em;
+    font-family: 'Satisfy', cursive;
+    
+ 
+}
+
+.favorite-contents{
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+  
+   
+}
+
+.favorite-content{
+    width: 320px;
+   padding: 60px;
+}
+
+.favorite-content h3{
+    padding-top: 16px;
+    text-align: center;
+    font-family: 'Satisfy', cursive;
+    font-size: 30px;
+ 
+    
+}
+
+.favorite-content img{
+    width: 200px;
+    height: 200px;
+    padding-top: 24px;
+}
+
+
+.favorite-content p{
+    text-align: left;
+    padding-top: 16px;
+    font-family: 'Zen Kurenaido', sans-serif;
+    
+}
+
+.contact{
+    text-align: center;
+}
+.contact h2{
+    font-size: 50px;
+    letter-spacing: 0.1em;
+    font-family: 'Satisfy', cursive;
+    margin-top: 60px;
+  
+    
+}
+
+.contact img{
+    width: 150px;
+    height: 150px;
+}
+
+
+footer{
+    padding-left: 20px;
+    font-family: 'Satisfy', cursive;
+    letter-spacing: 0.1em;
+}
